@@ -1,0 +1,1 @@
+Simple Flashbots Project, aims to send a transaction privately with flashbots RPC, also simulates Bundle method to send the same transaction and gives metrics on time elapsed difference between the two methods
