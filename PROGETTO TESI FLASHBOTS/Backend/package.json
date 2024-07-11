@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@flashbots/ethers-provider-bundle": "^1.0.0",
+    "ethers": "^6.7.1",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "signale": "^1.4.0"
+  }
+}

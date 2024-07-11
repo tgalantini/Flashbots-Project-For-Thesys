@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <title>Flashbots Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+</head>
+<body>
+    <div class="container"></div>
+    <form id="protectForm" class="form">
+        <h2>Send Private transaction with Flashbots</h2>
+        <img src="./image.png" alt="Trulli" width="60" height="60">
+            <br></br>
+            <h2>Transaction Params </h2>
+              <label class="lb" for="from">From</label>
+              <input name="from" id="from" type="text" class="infos">
+
+              <label class="lb" for="to">To</label>
+              <input name="to" id="to" type="text" class="infos">
+
+              <label class="lb" for="value">Value</label>
+              <input name="value" id="value" type="text" class="infos">
+
+              <label class="lb" for="data">Data</label>
+              <input name="data" id="data" type="text" class="infos">
+        
+              <label for="priv" class="lb">Private Key to Sign</label>
+              <input name="priv" id="priv" type="text" class="infos">
+                <br></br>
+              <button id="send" type="submit">Send Private transaction</button>
+            </form>
+  <script src="script.js"></script>
+  <script type="module">
+    import { ethers } from "https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.min.js";
+
+  </script>
+</body>
+</html>
